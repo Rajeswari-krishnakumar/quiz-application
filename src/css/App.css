@@ -1,0 +1,62 @@
+button{
+	color:#2b9bfb;
+	background:white;
+	border: none;
+	padding: 20px 29px;
+	cursor:pointer;
+}
+.centerContent{
+	width:70%;
+	margin: 10% auto;
+	border:1px solid #cde7fe;
+}
+.homeScreen{
+	text-align: center;
+	width:50%;
+	padding:30px;
+}
+.extraMargin{
+	margin: 30px;
+}
+.boldText{
+	font-weight: 700;
+}
+.biggerText{
+	font-size: 1.8em;
+}
+.smallerText{
+	font-size: 0.8em;
+	padding: 10px
+}
+.greyBackground{
+	background: #f2f2f2;
+	border-bottom: 1px solid #b4dbfd;
+	padding:15px 0px 15px 30px;
+	border-top: 1px solid #e6e6e6;
+}
+.centerButton{
+	width:45%;
+	padding:30px;
+}
+.resultDiv{
+	padding: 10px;
+	border-top: 1px solid #e6e6e6;
+}
+.resultDiv span{
+	display: inline-block;
+	width: 45%;
+	text-align: left;
+	font-weight: 700;
+	font-size:0.8em;
+}
+@media only screen and (min-width: 430px){
+	.centerContent{
+		width:40%;
+	}
+	.homeScreen{
+		width:20%;
+	}
+	.centerButton{
+		width:50%;
+	}
+}
